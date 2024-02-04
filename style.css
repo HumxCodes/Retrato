@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+  body {
+    /* Estilos para o corpo da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    text-align: center; /* Alinha o texto centralmente */
+  }
+
+  .container {
+    /* Estilos para o contêiner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header {
+    /* Estilos para o cabeçalho */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .performance-image {
+    /* Estilos para a imagem */
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    margin: auto; /* Centraliza a imagem horizontalmente dentro do quadrado */
+  }
+
+  .performance-square {
+    /* Estilos para o quadrado de desempenho */
+    width: 220px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    transition: transform 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 50px solid gray; /* Adiciona a borda */
+    padding: 10px; /* Adiciona o preenchimento */
+  }
+
+  .performance-square:hover {
+    /* Efeitos quando o mouse passa sobre o quadrado */
+    transform: scale(1.1);
+  }
+
+  .performance-image {
+    /* Estilos adicionais para a imagem */
+    width: 100%; /* Largura do contêiner */
+    height: 100%; /* Altura do contêiner */
+    object-fit: cover; /* A imagem mantém sua proporção e preenche o contêiner */
+  }
